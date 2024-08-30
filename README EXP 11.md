@@ -80,6 +80,37 @@ int main()
     rect.calculateArea()<<endl;
     return 0;
 }
+
+//Program 4 (Write code for class for the given main program and output.)
+#include<iostream>
+using namespace std;
+class Car
+{
+    public:
+    string make;
+    string model;
+    int year;
+    void userInput()
+    {
+        cout<<"Enter make of the car: ";
+        cin>>make;
+        cout<<"Enter model of the car: ";
+        cin>>model;
+        cout<<"Enter manufacture year of the car: ";
+        cin>>year;
+    }
+    void displayInfo()
+    {
+        cout<<"Car Details: "<<make<<" " <<model<<" ("<<year<<")"<<endl;
+    }
+};
+int main()
+{
+    Car myCar;
+    myCar.userInput();
+    myCar.displayInfo();
+    return 0;
+};
 ~~~
 
 # Conclusion
@@ -95,3 +126,6 @@ In C++ we have learnt what are classes and how to define them.
 
 ## Program 3 (Concept of Public and Private Variables in Class.)
 ![image](https://github.com/user-attachments/assets/2f9ab474-f9ed-4ff7-a918-46f396a3e2da)
+
+## Program 4 (Question)
+![image](https://github.com/user-attachments/assets/239edffd-3dd1-44f4-85d1-b1bbee6d2af3)
