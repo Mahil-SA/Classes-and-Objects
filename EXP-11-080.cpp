@@ -24,3 +24,30 @@ int main()
 /*
 Car Details: Mahindra XUV 700 (2024)
 */
+
+//Program 2 (Function/Method inside a class.)
+#include<iostream>
+using namespace std;
+class College
+{
+    public:
+    string collegename = "Symbiosis Institute of Technology";
+    string city = "Pune";
+    int batch = 2023;
+    void displayInfo()
+    {
+        College myCollege;
+        cout<<"Car Details: "<<myCollege.collegename<<" " <<myCollege.city<<" ("<<myCollege.batch<<")"<<endl;
+    }
+};
+int main()
+{
+    College myCollege;
+    myCollege.displayInfo();
+    return 0;
+}
+
+//Output
+/*
+Car Details: Symbiosis Institute of Technology Pune (2023)
+*/
