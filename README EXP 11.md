@@ -16,9 +16,9 @@ using namespace std;
 class Car
 {
     public:
-    string make = "Mahindra";
-    string model = "XUV 700";
-    int year = 2024;
+    string make = "Hyundai";
+    string model = "Creta";
+    int year = 2016;
 };
 int main()
 {
@@ -39,7 +39,7 @@ class College
     void displayInfo()
     {
         College myCollege;
-        cout<<"Car Details: "<<myCollege.collegename<<" " <<myCollege.city<<" ("<<myCollege.batch<<")"<<endl;
+        cout<<"College Details: "<<myCollege.collegename<<" " <<myCollege.city<<" ("<<myCollege.batch<<")"<<endl;
     }
 };
 int main()
