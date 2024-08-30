@@ -48,6 +48,38 @@ int main()
     myCollege.displayInfo();
     return 0;
 }
+
+//Program 3 (Concept of Public and Private Variables in Class)
+#include<iostream>
+using namespace std;
+class Rectangle
+{
+    public:
+    double length;
+    double width;
+    public:
+    void setDimensions(double len, double wid)
+    {
+        cout<<"Enter the length of the rectangle: ";
+        cin>>len;
+        cout<<"Enter the width of the rectangle: ";
+        cin>>wid;
+        length = len;
+        width = wid;
+    }
+    double calculateArea()
+    {
+        return length * width;
+    }
+};
+int main()
+{
+    Rectangle rect;
+    rect.setDimensions(5.0, 3.0);
+    cout<<"Area: "<<
+    rect.calculateArea()<<endl;
+    return 0;
+}
 ~~~
 
 # Conclusion
@@ -60,3 +92,6 @@ In C++ we have learnt what are classes and how to define them.
 
 ## Program 2 (Function/Method inside a class.) 
 ![image](https://github.com/user-attachments/assets/80039e37-fd29-4568-a7d6-fb5088e118e6)
+
+## Program 3 (Concept of Public and Private Variables in Class.)
+![image](https://github.com/user-attachments/assets/2f9ab474-f9ed-4ff7-a918-46f396a3e2da)
