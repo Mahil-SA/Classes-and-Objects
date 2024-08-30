@@ -90,3 +90,42 @@ Enter the length of the rectangle: 3.1
 Enter the width of the rectangle: 2.05
 Area: 6.355
 */
+
+//Program 4 (Write code for class for the given main program and output.)
+#include<iostream>
+using namespace std;
+class Car
+{
+    public:
+    string make;
+    string model;
+    int year;
+    void userInput()
+    {
+        cout<<"Enter make of the car: ";
+        cin>>make;
+        cout<<"Enter model of the car: ";
+        cin>>model;
+        cout<<"Enter manufacture year of the car: ";
+        cin>>year;
+    }
+    void displayInfo()
+    {
+        cout<<"Car Details: "<<make<<" " <<model<<" ("<<year<<")"<<endl;
+    }
+};
+int main()
+{
+    Car myCar;
+    myCar.userInput();
+    myCar.displayInfo();
+    return 0;
+};
+
+//Output
+/*
+Enter make of the car: Hyundai
+Enter model of the car: Creta
+Enter manufacture year of the car: 2016
+Car Details: Hyundai Creta (2016)
+*/
