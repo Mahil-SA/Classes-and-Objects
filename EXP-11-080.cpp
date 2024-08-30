@@ -37,7 +37,7 @@ class College
     void displayInfo()
     {
         College myCollege;
-        cout<<"Car Details: "<<myCollege.collegename<<" " <<myCollege.city<<" ("<<myCollege.batch<<")"<<endl;
+        cout<<"College Details: "<<myCollege.collegename<<" " <<myCollege.city<<" ("<<myCollege.batch<<")"<<endl;
     }
 };
 int main()
