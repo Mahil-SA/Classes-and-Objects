@@ -49,5 +49,44 @@ int main()
 
 //Output
 /*
-Car Details: Symbiosis Institute of Technology Pune (2023)
+College Details: Symbiosis Institute of Technology Pune (2023)
+*/
+
+//Program 3 (Concept of Public and Private Variables in Class)
+#include<iostream>
+using namespace std;
+class Rectangle
+{
+    public:
+    double length;
+    double width;
+    public:
+    void setDimensions(double len, double wid)
+    {
+        cout<<"Enter the length of the rectangle: ";
+        cin>>len;
+        cout<<"Enter the width of the rectangle: ";
+        cin>>wid;
+        length = len;
+        width = wid;
+    }
+    double calculateArea()
+    {
+        return length * width;
+    }
+};
+int main()
+{
+    Rectangle rect;
+    rect.setDimensions(5.0, 3.0);
+    cout<<"Area: "<<
+    rect.calculateArea()<<endl;
+    return 0;
+}
+
+//Output
+/*
+Enter the length of the rectangle: 3.1
+Enter the width of the rectangle: 2.05
+Area: 6.355
 */
