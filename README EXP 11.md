@@ -27,7 +27,36 @@ int main()
     return 0;
 }
 
+//Program 2 (Function/Method inside a class.)
+#include<iostream>
+using namespace std;
+class College
+{
+    public:
+    string collegename = "Symbiosis Institute of Technology";
+    string city = "Pune";
+    int batch = 2023;
+    void displayInfo()
+    {
+        College myCollege;
+        cout<<"Car Details: "<<myCollege.collegename<<" " <<myCollege.city<<" ("<<myCollege.batch<<")"<<endl;
+    }
+};
+int main()
+{
+    College myCollege;
+    myCollege.displayInfo();
+    return 0;
+}
 ~~~
 
 # Conclusion
 In C++ we have learnt what are classes and how to define them.
+
+# Outputs
+
+## Program 1 (Defining a class.)
+![image](https://github.com/user-attachments/assets/0847aa69-470b-4cbd-9f46-9408864c4a3e)
+
+## Program 2 (Function/Method inside a class.) 
+![image](https://github.com/user-attachments/assets/80039e37-fd29-4568-a7d6-fb5088e118e6)
