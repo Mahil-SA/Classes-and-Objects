@@ -1,7 +1,7 @@
 # Classes and Objects
 This repository contains experiments 11 which are related to the classes and objects in C++.
 
-# Pointers
+# Classes and Objects
 # EXPERIMENT 9:
 ## Aim: 
 To study and implement classes and objects.
